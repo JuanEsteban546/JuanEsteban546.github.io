@@ -1,0 +1,401 @@
+.dark header {
+    background-color: rgb(16, 43, 51);
+    box-shadow: 0px 1px 8px black;
+    color: black;
+}
+
+.dark .logoShoppingTop span {
+    color: white;
+}
+
+.dark .logoShoppingTop span:hover {
+    color: rgb(151, 229, 255);
+}
+
+/* .dark .userAvatar {
+    width: 30px;
+} */
+
+.dark .mail {
+    margin-right: 78px;
+}
+
+.dark .mail {
+    color: rgb(12, 172, 252);
+}
+
+.dark .contadorProducts {
+    color: rgb(12, 172, 252);
+}
+
+.dark .filtroInfo {
+    background-color: rgb(9, 23, 28);
+}
+
+.dark .productImfo {
+    box-shadow: 0rem 1rem 8rem black;
+    background-color: rgb(16, 43, 51);
+}
+
+.dark .image img {
+    color: black;
+    box-shadow: 0rem 1rem 8rem black;
+    
+}
+
+.dark .Name-Price {
+    color: black;
+    box-shadow: 0rem 1rem 8rem black;
+}
+
+.dark .nameInfo {
+    color: white;
+}
+
+.dark .cuotas {
+    color: white;
+}
+.dark .envioInfo p {
+    color: rgb(229, 229, 229);
+}
+
+
+.dark .devolucionInfo {
+    color: rgb(229, 229, 229); 
+}    
+
+.dark .Descrip {
+    color: white;
+}
+
+.dark .paDescrip {
+    color: antiquewhite;
+}
+
+.dark .asaide-account {
+    background-color: rgb(16, 43, 51);
+    color: black;
+    box-shadow: 0px 1px 8px black;
+}
+
+.dark .container-Acc {
+    box-shadow: 0px 1px 8px black;
+}
+
+.dark .accountTitl {
+    color: white;
+}
+
+.dark .sell {
+    color: white;
+}
+
+.dark .close {
+    color: white;
+}
+
+.dark .aside-Cart {
+    background-color: rgb(16, 43, 51);
+    box-shadow: 0px 1px 8px black;
+    color: black;
+}
+
+.aside-Cart::-webkit-scrollbar-thumb {
+    background: rgb(21, 70, 85);
+}
+
+.dark .my-Orders {
+    color: white;
+}
+
+.dark .aside-Cart h4 {
+    color: white;
+}
+
+.dark .empty-Cart {
+    box-shadow: 4px 5px 10px black;
+}
+
+.dark .continue-Shopping {
+    box-shadow: 4px 5px 10px black; 
+}
+
+.dark .totalPrice {
+    color: white;
+}
+
+.dark .to-Close {
+    box-shadow: 4px 5px 10px black;
+}
+
+.dark .storageProduct {
+    color: white;
+}
+
+.dark .amountCart {
+    color: aqua;
+}
+
+.dark .removeProduct {
+    box-shadow: 3px 3px 6px black;
+}
+
+.dark body {
+    background-color: rgb(16, 43, 51);
+}
+
+.dark main {
+    background-color: rgb(16, 43, 51);
+    padding-bottom: 30px;
+}
+
+.dark .productOne {
+    background-color: rgb(16, 43, 51);
+    box-shadow: 6px 1px 8px black;
+    color: black;
+}
+
+.dark .productOne:hover {
+    background-color: rgb(12, 35, 42);
+    padding: 24px;
+}
+
+.dark .nameProduct {
+    color: rgb(207, 192, 192);
+}
+
+.dark .priceProduct {
+    color: white;
+}
+
+.dark .addProduct {
+    color: white;
+    background-color: rgb(41, 176, 176);
+    box-shadow: 4px 5px 10px black;
+}
+
+.dark .addProduct:active {
+    background-color: rgb(27, 131, 131);
+}
+
+.dark footer {
+    background-color: rgb(10, 23, 27);
+    color: black;
+}
+
+.dark .stop span {
+    color: white;
+}
+
+.dark .care span {
+    color: white;
+}
+
+.dark .affiliates span {
+    color: white;
+}
+
+
+
+.dark .priceDiscount {
+    color: rgb(92, 91, 91);
+}
+
+/* Compra Final */
+
+.dark .containerProcess button {
+    background-color: rgb(16, 43, 51);
+    color: rgb(16, 43, 51);
+}
+
+.dark .containerMoney {
+    background-color: rgb(16, 65, 80);
+}
+
+.dark .title {
+    color: white;
+}
+
+.dark .inputName p {
+    color: white;
+}
+
+.dark .inputMail p {
+    color: white;
+}
+
+.dark .resultOne th, td {
+    color: white;
+} 
+
+.dark .totalOne p {
+    color: white;
+}
+
+/* permisoVndr */
+
+.dark .infoCompleta {
+    box-shadow: 0rem 1rem 8rem black;
+    background-color: rgb(8, 41, 52);
+}
+
+.dark .pOne img {
+    box-shadow: 0rem 1rem 8rem black;
+    color: black;
+}
+
+.dark .pOne p {
+    color: white;
+}
+
+.dark .pTwo img {
+    box-shadow: 0rem 1rem 8rem black;
+    color: black;
+}
+
+.dark .pTwo p {
+    color: white;
+}
+
+.pThree img {
+    box-shadow: 0rem 1rem 8rem black;
+    color: black;
+}
+
+.dark .pThree p {
+    color: white;
+}
+
+.dark .pFoor img {
+    box-shadow: 0rem 1rem 8rem black;
+    color: black;
+}
+
+.dark .tips p {
+    color: white;
+}
+
+.dark .cuestionarioVndr {
+    background-color: rgb(37, 54, 60);
+    box-shadow: 0rem 1rem 8rem black;
+    color: black;
+}
+
+.dark .nameCuestion label {
+    color: white;
+}
+
+.dark .option p {
+    color: white;
+}
+
+.dark .option label {
+    color: white;
+}
+
+.dark .vndrCuestion > label {
+    color: white;
+}
+
+.dark .vndrCuestion > input {
+    color: white;
+}
+
+.dark .tYcAccept a {
+    color: antiquewhite;
+}
+
+.dark .tYcAccept label {
+    color: white;
+}
+
+.dark .avisoVnta {
+    box-shadow: 3rem 3rem 4rem black;
+    background-color: rgb(190, 238, 255);
+}
+
+
+/* Perfil */
+
+.dark .perfil-Contenedor {
+    background-color: rgb(7, 21, 26);
+    box-shadow: 0rem 1rem 8rem black;
+}
+
+.dark .infoPerfil {
+    color: white;
+}
+
+
+.dark .textName {
+    color: white;
+}
+
+.dark .textSurnames {
+    color: white;
+
+}
+
+.dark .textEmail {
+    color: white;
+}
+
+.dark .textPassword {
+    color: white;
+}
+
+.dark .textUrl {
+    color: white;
+}
+
+.dark .textDate {
+    color: white;
+} 
+
+.dark .btnGuardar {
+    color: rgb(23, 18, 18);
+}
+
+.dark .activarActlz p {
+    color: white;
+}
+
+.dark .activarActlz img {
+    padding-top: 2rem;
+    cursor: pointer;
+}
+
+@media (min-width: 300px) and (max-width: 768px) {
+    .dark .productOne {
+        box-shadow: none;
+    }
+    .dark .addProduct {
+        box-shadow: none;
+    }
+    .dark .productOne:hover {
+        padding: 9px;
+    }
+
+    .dark .aside-Hambur {
+        box-shadow: 0rem 1rem 8rem black;
+        color: black;
+        background-color: rgb(16, 43, 51);
+    }
+
+    .black .Hambur-Acc {
+        box-shadow: 0rem 1rem 8rem black;
+        background-color: rgb(16, 43, 51);
+    }
+    .dark .accountTitlHambur {
+        font-size: 16rem;
+        color: white;
+    }
+
+    .dark .Hambur-Acc {
+        box-shadow: 0rem 1rem 8rem black;
+    }
+    .dark .aside-Hambur span {
+        color: white;
+    }
+
+}

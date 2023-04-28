@@ -1,0 +1,739 @@
+@media (min-width: 300px) and (max-width: 768px) {
+    .menuHambur {
+        width: 25px;
+        cursor: pointer;
+        display: flex;
+    }
+
+    .conatinerAccHambur {
+        display: flex;
+        justify-content: center;
+    }
+
+    .aside-Hambur {
+        color: darkgray;
+        flex-flow: column;
+        border-style: solid;
+        border-width: 1rem;
+        border-left: none;
+        border-bottom: none;
+        border-top: none;
+        box-shadow: 0rem 1rem 8rem darkgray;
+        color: darkgrey;
+        width: 50%;
+        height: 100%;
+        position: fixed;
+        left: 0;
+        top: 61rem;
+        padding: 20rem;
+        background-color: aliceblue;
+    }
+    .hamburActive {
+        display: flex;
+    }
+
+    .Hambur-Acc {
+        display: flex;
+        align-items: flex-start;
+        border-style: solid;
+        border-width: 1rem;
+        border-radius: 9rem;
+        box-shadow: 0rem 1rem 8rem darkgray;
+        padding: 3rem;
+        cursor: pointer;
+    }
+    
+    .accountTitlHambur {
+        font-size: 16rem;
+        color: black;
+    }
+
+    .Hambur-Acc {
+        width: 80%;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .Hambur-Acc p {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    
+    .userNumberHambur {
+        font-size: 10rem;
+        color: darkgrey;
+    }
+    
+    .myAccountIconHambur {
+        width: 30rem;
+        padding-right: 5rem;
+    }
+    
+    .hamburAccounArticle {
+        display: flex;
+        flex-flow: column;
+    }
+    .navHambur {
+        padding-top: 50rem;
+        display: flex;
+        flex-flow: column;
+    }
+
+    .aside-Hambur span {
+        font-size: 15rem;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-bottom: 40rem;
+        color: darkgrey;
+        cursor: pointer;
+    }
+
+    header {
+        padding: 15px;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .logoShoppingTop{
+        width: 32%;
+    }
+    .logoShoppingTop span {
+        display: none;
+        padding: 0;
+    }
+    .logoShoppingTop img {
+        width: 30px;
+    }
+    .logoShoppingTop p {
+        font-size: 10px;
+    }
+    .userAvatar {
+        width: 20px;
+        margin-right: 0px;
+        padding-right: 7px;
+    }
+    .shoppingIcon {
+        width: 20px;
+        padding-right: 1px;
+    }
+    .contadorProducts{
+        padding-right: 10px;
+        font-size: 10px;
+    }
+    .mail {
+        display: none;
+    }
+
+    .asaide-account {
+        width: 150px;
+        top: 60.5px;
+        margin-right: 9px;
+    }
+    .aside-Cart{
+        top: 61px;
+        left: 0;
+        width: 99%;
+        height: 600px;
+        padding: 5px;
+        border-style: none;
+        border-radius: 0px;
+        box-shadow: none;
+    }
+    .storageProduct {
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .infoProduct-Cart {
+        width: 80%;
+    }
+    .my-Orders {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 20px;
+        width: 100%;
+    }
+    .infoProduct {
+        width: 60%;
+    }
+    .totalProducts {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .continue-Shopping {
+        width: 20%;
+    }
+    main{
+        padding-top: 80px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .container-Products{
+        gap: 5px;
+    }
+    .productOne {
+        width: 100%;
+        height: 80px;
+        border-radius: 0px;
+        box-shadow: none;
+        padding: 6px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .productOne:hover{
+        padding: 9px;
+    }
+    .imgProduct {
+        width: 80px;
+        height: 80px;
+        border-radius: 5px;
+        margin-right: 10px;
+    }
+    .priceProduct {
+        font-size: 12px;
+        margin-bottom: 3px;
+    }
+    .nameProduct {
+        font-size: 10px;
+    }
+    .addBtn {
+        display: flex;
+        justify-content: flex-end;
+        width: 10%;
+        height: 30px;
+        padding: 1px;
+    }
+    .addProduct {
+        box-shadow: none;
+    }
+    .addProduct span{
+        font-size: 15px;
+    }
+
+    .stop {
+        display: none;
+    }
+    .affiliates {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .care {
+        display: none;
+    }
+
+    /* Perfil */
+
+    .perfil-Contenedor {
+        width: 90%;
+        height: 85%;
+        padding: 15rem;
+    }
+    
+    .banner img {
+        width: 91%;
+    }
+    
+    .imgPerfil img {
+        width: 25%;
+        margin-top: 32%;
+        margin-left: 40rem;
+        border-width: 5rem;
+    }
+    
+    .infoPerfil {
+        display: flex;
+        justify-content: center;
+        flex-wrap: nowrap;
+        margin-top: 65%;
+        margin-left: 1%;
+        padding: 3%;
+    }
+    
+    .infoPerfil p {
+        font-size: 20rem;
+    }
+    
+    .userPerfil {
+        padding-top: 9rem;
+    }
+    
+    
+    
+    .actualizarPerfil {
+        display: none;
+        padding-top: 14rem;
+    }
+    
+    .actiualizarActv {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .textName {
+        padding-right: 0rem;
+        margin-left: 20%;
+    }
+    
+    #name {
+        width: 60%;
+        height: 30rem;
+        margin-left: 20%;
+        margin-right: 0rem;
+    }
+    
+    .textSurnames {
+        padding-right: 0rem;
+        margin-left: 20%;
+        padding-top: 1%;
+    }
+    
+    #surnames {
+        width: 60%;
+        height: 30rem;
+        margin-left: 20%;
+        margin-right: 0rem;
+    }
+    
+    .textEmail {
+        padding-right: 0rem;
+        margin-left: 20%;
+        padding-top: 1%;
+    }
+    
+    #email {
+        width: 60%;
+        height: 30rem;
+        margin-left: 20%;
+        margin-right: 0rem;
+        margin-top: 0rem;
+    }
+    
+    .textPassword {
+        padding-right: 0rem;
+        margin-left: 20%;
+        padding-top: 1%;
+    }
+    
+    #password {
+        width: 60%;
+        height: 30rem;
+        margin-left: 20%;
+        margin-right: 0rem;
+        margin-top: 0rem;
+    }
+    
+    .textUrl {
+        padding-right: 0rem;
+        margin-left: 20%;
+        padding-top: 1%;
+    }
+    
+    #url {
+        width: 60%;
+        height: 30rem;
+        margin-left: 20%;
+        margin-right: 0rem;
+        margin-top: 0rem;
+    }
+    
+    .textDate {
+        padding-right: 0rem;
+        margin-left: 20%;
+        padding-top: 1%;
+    }
+    
+    #date {
+        width: 60%;
+        height: 30rem;
+        margin-left: 20%;
+        margin-right: 0rem;
+    }
+    
+    .activarActlz p {
+        font-size: 18rem;
+    }
+    
+    .activarActlz img {
+        padding-top: 2rem;
+        width: 17rem;
+    }
+    
+    .mailPerfil {
+        display: none;
+    }
+
+    /* Info del Producto */
+
+    .titleVenta {
+        display: flex;
+        justify-content: center;
+        font-size: 23rem;
+        color: rgb(12, 172, 252);
+        padding-bottom: 30rem;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+    .mainVndr {
+        padding-top: 15%;
+        padding-bottom: 30rem;
+        padding-left: 30rem;
+        padding-right: 30rem;
+    }
+    
+    .infoCompleta {
+        background-color: white;
+        padding: 16rem;
+        border-radius: 16rem;
+        box-shadow: 0rem 1rem 8rem darkgray;
+    }
+    
+    .pOne {
+        display: flex;
+        align-items: center;
+    }
+    
+    .pOne img {
+        width: 30%;
+        height: 30%;
+    }
+    
+    .pOne p {
+        width: 100%;
+        font-size: 10rem;
+        padding-left: 5%;
+    }
+    
+    .pTwo {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        margin-top: 8%;
+    }
+    
+    .pTwo img {
+        width: 30%;
+        height: 30%;
+    }
+    
+    .pTwo p {
+        width: 100%;
+        font-size: 10rem;
+        padding-left: 5%;
+    }
+    
+    .pThree {
+        display: flex;
+        align-items: center;
+        margin-top: 8%;
+    }
+    
+    .pThree img {
+        width: 30%;
+        height: 30%;
+    }
+    
+    .pThree p {
+        width: 100%;
+        font-size: 10rem;
+        padding-left: 5%;
+    }
+    
+    
+    .pFoor {
+        display: flex;
+        align-items: center;
+        margin-top: 8%;
+    }
+    
+    .pFoor img {
+        width: 30%;
+        height: 30%;
+    }
+    
+    .tips {
+        flex-flow: column;
+    }
+    
+    .tips p {
+        width: 100%;
+        font-size: 10rem;
+        padding-left: 0%;
+        padding-bottom: 4%;
+    }
+    
+    .cuestionarioVndr {
+        width: 80%;
+        margin-top: 5%;
+        margin-left: 8%;
+        padding: 3%;
+        border-radius: 7rem;
+    }
+    
+    .nameCuestion {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .nameCuestion label {
+        font-size: 11rem;
+        padding-right: 0rem;
+    }
+    
+    .nameCuestion input {
+        width: 80%;
+        height: 30rem;
+        margin-right: 0rem;
+        margin-bottom: 5%;
+        font-size: 11rem;
+    }
+    
+    .vndrCuestion {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .vndrCuestion > label {
+        font-size: 11rem;
+        padding-right: 0rem;
+        justify-content: center;
+    }
+    
+    .vndrCuestion > input {
+        width: 80%;
+        height: 30rem;
+        margin-right: 0rem;
+        margin-bottom: 5%;
+        font-size: 11rem;
+        padding-right: 0rem;
+    }
+    
+    .option {
+        margin-top: 0rem;
+        flex-flow: column;
+        align-items: center;
+    }
+    
+    .option p {
+        font-size: 11rem;
+        padding-right: 0rem;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .option label {
+        font-size: 11rem;
+    }
+    
+    
+    .tYcAccept {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 2%;
+    }
+    
+    .tYcAccept a {
+        font-size: 11rem;
+        padding-right: 2%;
+    }
+    
+    .tYcAccept label {
+        font-size: 9rem;
+    }
+    
+    .buttonSend {
+        display: flex;
+        justify-content: center;
+        padding-top: 3%;
+    }
+    
+    .Send {
+        width: 30%;
+        height: 27rem;
+        font-size: 9rem;
+    }
+    
+    .avisoVnta {
+        width: 50%;
+        padding: 2%;
+        margin-left: 25%;
+        margin-top: 3%;
+        border-radius: 8rem;
+        box-shadow: 7rem 7rem 8rem darkgray;
+        background-color: rgb(190, 238, 255);
+    }
+    
+    .avisoActive {
+        display: flex;
+    }
+    
+    .avisoVnta p{
+        font-size: 9rem;
+        color: rgb(100, 100, 100);
+    }
+    
+    .avisoVnta button {
+        width: 20%;
+        height: 20rem;
+        margin-left: 40%;
+        margin-top: 2%;
+        font-size: 11rem;
+    }
+
+    .mailVndr {
+        display: none;
+    }
+
+    /* Info del Producto */
+
+    .filtroInfo {
+        top: 60rem;
+        width: 100%;
+        height: 350vh;
+        padding: 20rem;
+        padding-left: 5%;
+    }
+    
+    .asideInfoAct {
+        display: flex;
+    }
+    
+    .productImfo {
+        width: 83%;
+        height: 100%;
+        border-radius: 7rem;
+        padding: 4%;
+    }
+    
+    .salirInfo {
+        width: 30rem;
+        top: 80rem;
+        padding-left: 8rem;
+    }
+    
+    .basicInfo {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .image {
+        padding-right: 0rem;
+    }
+    
+    .image img {
+        width: 100%;
+        height: 100%;
+        border-radius: 0rem;
+        box-shadow: none;
+    }
+    
+    .Name-Price {
+        margin-top: 4%;
+        box-shadow: none;
+        width: 94%;
+        border-radius: 0rem;
+        padding: 3%;
+    }
+    
+    .nameInfo {
+        font-size: 15rem;
+        font-family: Arial, Helvetica, sans-serif;
+        color: black;
+        padding-bottom: 7rem;
+    }
+    
+    .priceInfo {
+        font-size: 18rem;
+    }
+    
+    .cuotas {
+        font-size: 14rem;
+        padding-top: 15rem;
+    }
+    
+    .tarjetas {
+        padding-bottom: 14rem;
+        padding-left: 120rem;
+    }
+    
+    .envio {
+        display: flex;
+        align-items: center;
+    }
+    
+    .envioInfo p {
+        font-size: 12rem;
+        font-family: Arial, Helvetica, sans-serif;
+        color: darkgray;
+    }
+    
+    .devolucion {
+        display: flex;
+        align-items: center;
+        padding-top: 5%;
+    }
+    
+    .devolucion img {
+        width: 20rem;
+    }
+    
+    .devolucion p {
+        font-size: 12rem;
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgb(12, 172, 252);
+    }
+    
+    .devolucionInfo {
+        font-size: 12rem;
+        font-family: Arial, Helvetica, sans-serif;
+        color: darkgray;
+    }
+    
+    .Descrip {
+        /* width: 60%; */
+        padding-top: 30rem;
+        padding-bottom: 30rem;
+        font-size: 15rem;
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgb(89, 86, 86);
+    }
+    
+    .paDescrip {
+        font-size: 20rem;
+        color: #282c3b;
+        padding-bottom: 12rem;
+    }
+
+
+    footer {
+        display: flex;
+        justify-content: center;
+        padding: 2%;
+        height: 63rem;
+    }
+    
+    .stop {
+        display: none;
+    }
+    
+    .affiliates {
+        display: flex;
+        align-items: center;
+        font-family: sans-serif;
+        font-size: 8rem;
+        color: black;
+    }
+    
+    .care {
+        display: none;
+    }
+    
+    .swal2-popup {
+        font-size: 13em !important;
+    }
+}
+    

@@ -1,0 +1,166 @@
+@media (min-width: 300px) and (max-width: 768px) {
+    .menuHambur {
+        display: flex;
+        width: 25px;
+    }
+
+    header {
+        padding: 15px;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .logoShoppingTop{
+        width: 32%;
+    }
+    .logoShoppingTop span {
+        display: none;
+        padding: 0;
+    }
+    .logoShoppingTop img {
+        width: 30px;
+    }
+    .logoShoppingTop p {
+        font-size: 10px;
+    }
+    .userAvatar {
+        width: 20px;
+        margin-right: 0px;
+        padding-right: 7px;
+    }
+    .shoppingIcon {
+        width: 20px;
+        padding-right: 1px;
+    }
+    .contadorProducts{
+        padding-right: 10px;
+        font-size: 10px;
+    }
+    .mail {
+        display: none;
+    }
+
+    .asaide-account {
+        width: 150px;
+        top: 60.5px;
+        margin-right: 9px;
+    }
+    .aside-Cart{
+        top: 61px;
+        left: 0;
+        width: 99%;
+        height: 600px;
+        padding: 5px;
+        border-style: none;
+        border-radius: 0px;
+        box-shadow: none;
+    }
+    .storageProduct {
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .infoProduct-Cart {
+        width: 80%;
+    }
+    .my-Orders {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 20px;
+        width: 100%;
+    }
+    .infoProduct {
+        width: 60%;
+    }
+    .totalProducts {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .continue-Shopping {
+        width: 20%;
+    }
+
+    .containerMoney {
+    width: 95%;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 15rem;
+    border-radius: 9rem;
+    }
+
+    .title {
+        font-size: 14rem;
+    }
+    .inputName {
+        display: flex;
+        justify-content: flex-start;
+        margin-bottom: 5rem;
+    }
+    .inputName p {
+        font-family: sans-serif;
+        font-size: 12rem;
+        padding-right: 10rem;
+    }
+    .inputName input {
+        height: 20rem;
+        width: 420rem;
+    }
+    .inputMail {
+        display: flex;
+        justify-content: flex-start;
+    }
+    
+    .inputMail input {
+        height: 20rem;
+        width: 420rem;
+    }
+    
+    .inputMail p {
+        font-family: sans-serif;
+        font-size: 12rem;
+        padding-right: 21rem;
+    }
+    .resultOne th {
+        font-size: 12rem;
+    }
+    .resultOne td {
+        font-size: 9rem;
+    }
+    .totalOne p {
+        font-size: 10rem;
+    }
+    .keepBuying {
+        font-size: 9rem;
+        width: 80rem;
+        padding: 2rem;
+    }
+    .keepBuying img {
+        width: 20rem;
+        margin-right: 1rem;
+    }
+    .checkout {
+        font-size: 9rem;
+        width: 67rem;
+        padding: 3rem;
+    }
+    
+    .checkout img {
+        width: 20rem;
+        margin-left: 3rem;
+    }
+
+    .stop {
+        display: none;
+    }
+    .affiliates {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .care {
+        display: none;
+    }
+}

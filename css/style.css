@@ -1,0 +1,789 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 6.25%;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    width: 100%;
+    position: fixed;
+    background-color: white;
+    top: 0;
+    left: 0;
+    /* color: rgb(151, 229, 255); */
+    color: darkgrey;
+    box-shadow: 0rem 1rem 8rem darkgray;
+    border-style: solid;
+    border-width: 1.5rem;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding: 20rem;
+}
+
+.menuHambur {
+    display: none;
+}
+
+.logoShoppingTop {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.logoShoppingTop span {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13rem;
+    text-decoration: none;
+    color: grey;
+    padding: 9rem;
+}
+
+.logoShoppingTop span:hover {
+    color: rgb(151, 229, 255);
+    border-style: solid;
+    border-width: 1rem;
+    border-radius: 9rem;
+}
+
+.logoShoppingTop img {
+    width: 45rem;
+}
+
+.logoShoppingTop p {
+    margin-right: 20rem;
+    font-size: 17rem;
+    margin-right: 20rem;
+    text-shadow: 1rem 1rem 2rem black;
+    color: rgb(67, 192, 255);
+}
+
+.nameCompany {
+    font-family: 'Righteous', cursive;
+}
+
+.navIcon {
+    display: flex;
+    align-items: center;
+}
+
+.userAvatar {
+    width: 30rem;
+    margin-right: 40rem;
+    cursor: pointer;
+}
+
+.shoppingIcon {
+    width: 27rem;
+    cursor: pointer;
+    padding-right: 1rem;
+}
+
+.contadorProducts {
+    font-family: 'Righteous', cursive;
+    font-size: 14rem;
+    padding-right: 14rem;
+    color: rgb(12, 172, 252);
+}
+
+
+.mail {
+    position: absolute;
+    right: 0; 
+    margin-right: 78rem;
+    font-size: 10rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(12, 172, 252);
+    margin-top: 30rem;
+    cursor: pointer;
+}
+
+.aside-Hambur {
+    display: none;
+}
+
+.filtroInfo {
+    display: none;
+    position: fixed;
+    top: 84rem;
+    width: 100%;
+    height: 530rem;
+    background-color: rgb(199, 209, 218);
+    padding: 100rem;
+    padding-left: 300rem;
+    overflow-y: scroll;
+}
+
+.asideInfoAct {
+    display: flex;
+}
+
+.productImfo {
+    width: 53%;
+    box-shadow: 0rem 1rem 8rem darkgray;
+    height: 140%;
+    border-radius: 9rem;
+    padding: 50rem;
+    background-color: #fff;
+}
+
+.salirInfo {
+    width: 40rem;
+    position: fixed;
+    cursor: pointer;
+    left: 0;
+    top: 119rem;
+    padding-left: 200rem;
+}
+
+.basicInfo {
+    display: flex;
+}
+
+.image {
+    padding-right: 23rem;
+}
+
+.image img {
+    width: 530rem;
+    height: 530rem;
+    border-style: solid; 
+    border-width: 1rem;
+    border-radius: 9rem;
+    color: darkgray;
+    box-shadow: 0rem 1rem 8rem darkgray;
+    
+}
+
+.Name-Price {
+    width: 30%;
+    border-style: solid; 
+    border-width: 1rem;
+    border-radius: 9rem;
+    color: darkgrey;
+    box-shadow: 0rem 1rem 8rem darkgray;
+    border-width: 1rem;
+    padding: 15rem;
+}
+
+.nameInfo {
+    font-size: 18rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    padding-bottom: 7rem;
+}
+
+.priceInfo {
+    font-size: 25rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(12, 172, 252);
+}
+
+.cuotas {
+    font-size: 14rem;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 34rem;
+    color: black;
+}
+
+.tarjetas {
+    padding-bottom: 34rem;
+    padding-left: 40rem;
+}
+
+.masterCard {
+    width: 40rem;
+}
+
+.visa {
+    width: 45rem;
+    padding-right: 10rem;
+}
+
+.paypal {
+    width: 48rem;
+}
+
+.envio {
+    display: flex;
+    align-items: center;
+    padding-top: 8rem;
+}
+
+.envio img {
+    width: 25rem;
+}
+
+.envio p {
+    font-size: 12rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(12, 172, 252);
+}
+
+.envioInfo p {
+    font-size: 12rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkgray;
+}
+
+.devolucion {
+    display: flex;
+    align-items: center;
+    padding-top: 8rem;
+}
+
+.devolucion img {
+    width: 20rem;
+}
+
+.devolucion p {
+    font-size: 12rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(12, 172, 252);
+}
+
+.devolucionInfo {
+    font-size: 12rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkgray;
+}
+
+.Descrip {
+    /* width: 60%; */
+    padding-top: 30rem;
+    padding-bottom: 30rem;
+    font-size: 15rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(89, 86, 86);
+}
+
+.paDescrip {
+    font-size: 20rem;
+    color: #282c3b;
+    padding-bottom: 12rem;
+}
+
+.asaide-account {
+    border-style: solid;
+    border-width: 1rem;
+    border-radius: 9rem;
+    box-shadow: 0rem 1rem 8rem darkgray;
+    color: darkgrey;
+    width: 10%;
+    position: fixed;
+    right: 0;
+    top: 85rem;
+    margin-right: 40rem;
+    padding: 10rem;
+    background-color: aliceblue;
+}
+
+.container-Acc {
+    display: flex;
+    align-items: flex-start;
+    border-style: solid;
+    border-width: 1rem;
+    border-radius: 9rem;
+    box-shadow: 0rem 1rem 8rem darkgray;
+    padding: 3rem;
+    cursor: pointer;
+}
+
+.accountTitl {
+    font-size: 16rem;
+    color: black;
+}
+
+.container-Acc p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.userNumber {
+    font-size: 10rem;
+    color: darkgrey;
+}
+
+.myAccountIcon {
+    width: 30rem;
+    padding-right: 5rem;
+}
+
+.myAccounArticle {
+    display: flex;
+    flex-flow: column;
+}
+
+.container-sell {
+    display: flex;
+    align-items: center;
+    margin-top: 10rem;
+    cursor: pointer;
+}
+
+.sell {
+    display: flex;
+    align-items: center;
+    padding-bottom: 10rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15rem;
+}
+
+.sell img {
+    width: 27rem;
+    padding-right: 3rem;
+}
+
+.switch {
+    background: #343D5B;
+    border-radius: 1000rem;
+    border: none;
+    position: relative;
+    cursor: pointer;
+    display: flex;
+    outline: none;
+}
+
+.switch span {
+    width: 30rem;
+    height: 30rem;
+    line-height: 30rem;
+    background: none;
+    color: #fff;
+}
+
+.switch::after {
+    content: "";
+    display: block;
+    width: 30rem;
+    height: 30rem;
+    position: absolute;
+    background: #F1F1F1;
+    top: 0;
+    left: 0;
+    right: unset;
+    border-radius: 100rem;
+    transition: .3 ease all;
+    box-shadow: 0rem 0rem 2rem 2rem rgba(0,0,0,.2);
+}
+
+.switch.active {
+    background: orange;
+    color: #000;
+}
+
+.switch.active::after {
+    right: 0;
+    left: unset;
+}
+
+.container-Close {
+    margin-top: 10rem;
+    cursor: pointer;
+}
+
+.close {
+    display: flex;
+    align-items: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15rem;
+    color: darkgray;
+}
+
+.close img {
+    width: 30rem;
+    padding-right: 3rem;
+}
+
+.aside-Cart {
+    width: 19%;
+    height: 60%;
+    padding: 32rem;
+    position: fixed;
+    overflow-y: scroll;
+    display: block;
+    right: 0;
+    top: 85rem;
+    border-style: solid;
+    border-width: 1rem;
+    border-radius: 9rem;
+    box-shadow: 0rem 1rem 8rem darkgray;
+    color: darkgrey;
+    background-color: aliceblue;
+}
+
+.aside-Cart::-webkit-scrollbar{
+    width: 6rem;
+}
+
+.aside-Cart::-webkit-scrollbar-thumb {
+    background: darkgray;
+    border-radius: 6rem;
+}
+
+.inactive {
+    display: none;
+}
+
+.inactiveAcc {
+    display: none;
+}
+
+.my-Orders {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 18rem;
+    color: darkgray;
+}
+
+.totalProducts {
+    display: flex;;
+    /* padding-top: 22px; */
+}
+
+.empty-Cart {
+    display: flex;
+    align-items: center;
+    padding: 4rem;
+    margin-right: 12rem;
+    font-size: 11rem;
+    border: none;
+    border-radius: 3rem;
+    color: white;
+    background-color: rgb(252, 5, 5);
+    box-shadow: 4rem 5rem 10rem darkgrey;
+    cursor: pointer;
+}
+
+.empty-Cart img {
+    width: 26rem;
+}
+
+.continue-Shopping {
+    display: flex;
+    align-items: center;
+    width: 40%;
+    padding: 4rem;
+    margin-right: 12rem;
+    font-size: 11rem;
+    border: none;
+    border-radius: 3rem;
+    color: white;
+    background-color: green;
+    box-shadow: 4rem 5rem 10rem darkgrey;
+    cursor: pointer;
+}
+
+.continue-Shopping img {
+    width: 24rem;
+}
+
+.totalPrice {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16rem;
+    padding-bottom: 20rem;
+    display: flex;
+    justify-content: center;
+}
+
+.to-Close {
+    display: flex;
+    align-items: center;
+    padding: 4rem;
+    font-size: 11rem;
+    border: none;
+    border-radius: 3rem;
+    color: white;
+    background-color: darkred;
+    box-shadow: 4rem 5rem 10rem darkgrey;
+    cursor: pointer;
+}
+
+.to-Close img {
+    width: 28rem;
+}
+
+.empty-Cart:active {
+    background-color: crimson;
+}
+
+.continue-Shopping:active {
+    background-color: darkolivegreen;
+}
+
+.to-Close:active {
+    background-color: firebrick;
+}
+
+.storageProduct {
+    display: flex;
+    justify-content: space-between;
+    padding: 12rem;
+    border-style: solid;
+    border-width: 1rem;
+    border-left: none;
+    border-right: none;
+    padding-top: 15rem;
+    padding-bottom: 20rem;
+}
+
+.imgCart {
+    width: 100rem;
+    height: 100rem;
+    border-style: solid;
+    border-width: 1rem;
+    border-radius: 9rem;
+    margin-right: 12rem;
+}
+
+.priceCart {
+    font-size: 15rem;
+    color: black;
+    font-family: 'Righteous', cursive;
+}
+
+.nameCart {
+    font-size: 12rem;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 4rem;
+}
+
+.amountCart {
+    font-size: 14rem;
+    font-family: sans-serif;
+    margin-top: 4rem;
+    color: cornflowerblue;
+}
+
+.removeProduct {
+    font-size: 11rem;
+    height: 34rem;
+    border-radius: 3rem;
+    border: none;
+    margin-top: 20rem;
+    margin-left: 12rem;
+    background-color: crimson;
+    box-shadow: 3rem 3rem 6rem darkgrey;
+    color: white;
+    cursor: pointer;
+}
+
+.removeProduct img {
+    width: 20rem;
+}
+
+.removeProduct:active {
+    padding: 2rem;
+    background-color: rgb(197, 35, 67);
+}
+
+.notProducts {
+    font-family: sans-serif;
+    font-size: 12rem;
+    color: red;
+    display: flex;
+    justify-content: center;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+}
+
+.swal2-popup {
+    font-size: 13em !important;
+}
+
+main {
+    display: flex; 
+    padding-top: 100rem;
+    padding-bottom: 30rem;
+}
+
+.container-Products {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20rem;
+}
+
+.productOne {
+    padding: 20rem;
+    height: 440rem;
+    width: 240rem;
+    color: darkgrey;
+    box-shadow: 6rem 1rem 8rem darkgray;
+    border-style: solid;
+    border-width: 1rem;
+    border-radius: 9rem;
+    cursor: pointer;
+}
+
+.productOne:hover {
+    /* width: 250px; */
+    padding: 24rem;
+    background-color: rgb(226, 229, 231);
+}
+
+.imgProduct {
+    width: 240rem;
+    height: 240rem;
+}
+
+.infoProduct {
+    margin-top: 18rem;
+}
+
+.nameProduct {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14rem;
+    margin-bottom: 12rem;
+    color: lightslategray;
+}
+
+.priceProduct {
+    font-family: 'Righteous', cursive;
+    font-size: 16rem;
+    margin-bottom: 12rem;
+    color: black;
+}
+
+.addBtn {
+    width: 100%;
+    display: flex;
+}
+
+.addProduct {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding: 5rem;
+    border-radius: 3rem;
+    border: none;
+    box-shadow: 4rem 5rem 10rem darkgrey;
+    color: rgb(200, 200, 200);
+    background-color: dodgerblue;
+}
+
+.addProduct:active {
+    background-color: rgb(0, 128, 255);
+}
+
+.addProduct img {
+    width: 25rem;
+}
+
+.addIcon {
+    font-size: 9rem;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 10rem;
+    height: 60rem;
+    color: darkgray;
+    border-style: solid; 
+    border-width: 1rem;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    background-color: rgb(185, 185, 185);
+}
+
+.stop {
+    display: flex;
+    align-items: center;
+    width: 20%;
+}
+
+.stop img {
+    width: 40rem;
+    padding-right: 6rem;
+}
+
+.stop span {
+    font-family: sans-serif;
+    font-size: 8rem;
+    color: black;
+}
+
+.affiliates {
+    display: flex;
+    align-items: center;
+    font-family: sans-serif;
+    font-size: 8rem;
+    color: black;
+}
+
+.care {
+    display: flex;
+    align-items: center;
+    width: 20%;
+}
+
+.care img {
+    width: 40rem;
+    padding-right: 6rem;
+} 
+
+.care span {
+    font-family: sans-serif;
+    font-size: 8rem;
+    color: black;
+}
+
+
+
+/* Promociones */
+
+.discount-price {
+    display: flex;
+}
+
+.priceDiscount {
+    font-family: sans-serif;
+    font-size: 11px;
+    text-decoration: line-through;
+}
+
+.priceProduct {
+    padding-right: 5px;
+}
+
+.discount {
+    background-color: chartreuse;
+    color: black;
+    padding: 3px;
+    font-family: sans-serif;
+    font-size: 11px;
+}
+
+
+.Price-Discount {
+    display: flex;
+    align-items: center;
+}
+
+.priceInfoPromo {
+    font-size: 25rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(12, 172, 252);
+    padding-right: 12rem;
+}
+
+.discountInfo {
+    background-color: chartreuse;
+    color: black;
+    padding: 3rem;
+    font-family: sans-serif;
+    font-size: 12rem;
+}
+
+.priceNatural {
+    font-family: sans-serif;
+    font-size: 12rem;
+    color: rgb(92, 91, 91);
+    text-decoration: line-through
+}

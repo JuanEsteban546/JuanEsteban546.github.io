@@ -1,0 +1,434 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 6.25%;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    width: 100%;
+    position: fixed;
+    background-color: white;
+    top: 0;
+    left: 0;
+    /* color: rgb(151, 229, 255); */
+    color: darkgrey;
+    box-shadow: 0rem 1rem 8rem darkgray;
+    border-style: solid;
+    border-width: 1.5rem;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding: 20rem;
+}
+
+.menuHambur {
+    display: none;
+}
+
+.logoShoppingTop {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.logoShoppingTop span {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13rem;
+    text-decoration: none;
+    color: grey;
+    padding: 9rem;
+}
+
+.logoShoppingTop span:hover {
+    color: rgb(151, 229, 255);
+    border-style: solid;
+    border-width: 1rem;
+    border-radius: 9rem;
+}
+
+.logoShoppingTop img {
+    width: 45rem;
+}
+
+.logoShoppingTop p {
+    margin-right: 20rem;
+    font-size: 17rem;
+    margin-right: 20rem;
+    text-shadow: 1rem 1rem 2rem black;
+    color: rgb(67, 192, 255);
+}
+
+.nameCompany {
+    font-family: 'Righteous', cursive;
+}
+
+.navIcon {
+    display: flex;
+    align-items: center;
+}
+
+.userAvatar {
+    width: 30rem;
+    margin-right: 68rem;
+    cursor: pointer;
+}
+
+
+.mailPerfil {
+    position: absolute;
+    right: 0; 
+    margin-right: 58rem;
+    font-size: 10rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(12, 172, 252);
+    margin-top: 30rem;
+    cursor: pointer;
+}
+
+.aside-Hambur {
+    display: none;
+}
+
+.asaide-account {
+    border-style: solid;
+    border-width: 1rem;
+    border-radius: 9rem;
+    box-shadow: 0rem 1rem 8rem darkgray;
+    color: darkgrey;
+    width: 10%;
+    position: fixed;
+    right: 0;
+    top: 85rem;
+    margin-right: 20rem;
+    padding: 10rem;
+    background-color: aliceblue;
+}
+
+.container-Acc {
+    display: flex;
+    align-items: flex-start;
+    border-style: solid;
+    border-width: 1rem;
+    border-radius: 9rem;
+    box-shadow: 0rem 1rem 8rem darkgray;
+    padding: 3rem;
+    cursor: pointer;
+}
+
+.accountTitl {
+    font-size: 16rem;
+    color: black;
+}
+
+.container-Acc p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.userNumber {
+    font-size: 10rem;
+    color: darkgrey;
+}
+
+.myAccountIcon {
+    width: 30rem;
+    padding-right: 5rem;
+}
+
+.myAccounArticle {
+    display: flex;
+    flex-flow: column;
+}
+
+.container-sell {
+    display: flex;
+    align-items: center;
+    margin-top: 10rem;
+    cursor: pointer;
+}
+
+.sell {
+    display: flex;
+    align-items: center;
+    padding-bottom: 10rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15rem;
+}
+
+.sell img {
+    width: 27rem;
+    padding-right: 3rem;
+}
+
+.switch {
+    background: #343D5B;
+    border-radius: 1000rem;
+    border: none;
+    position: relative;
+    cursor: pointer;
+    display: flex;
+    outline: none;
+}
+
+.switch span {
+    width: 30rem;
+    height: 30rem;
+    line-height: 30rem;
+    background: none;
+    color: #fff;
+}
+
+.switch::after {
+    content: "";
+    display: block;
+    width: 30rem;
+    height: 30rem;
+    position: absolute;
+    background: #F1F1F1;
+    top: 0;
+    left: 0;
+    right: unset;
+    border-radius: 100rem;
+    transition: .3 ease all;
+    box-shadow: 0rem 0rem 2rem 2rem rgba(0,0,0,.2);
+}
+
+.switch.active {
+    background: orange;
+    color: #000;
+}
+
+.switch.active::after {
+    right: 0;
+    left: unset;
+}
+
+.container-Close {
+    margin-top: 10rem;
+    cursor: pointer;
+}
+
+.close {
+    display: flex;
+    align-items: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15rem;
+    color: darkgray;
+}
+
+.close img {
+    width: 30rem;
+    padding-right: 3rem;
+}
+
+.inactive {
+    display: none;
+}
+
+.inactiveAcc {
+    display: none;
+}
+
+body {
+    background-color: rgb(234, 244, 253);
+}
+
+main {
+    padding-top: 100rem;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+
+.perfil-Contenedor {
+    position: fixed;
+    overflow-y: scroll;
+    width: 41.9%;
+    height: 620rem;
+    border: solid;
+    padding: 15rem;
+    background-color: rgb(255, 234, 234);
+    box-shadow: 0rem 1rem 8rem darkgray;
+    border-width: 1rem;
+}
+
+.banner img {
+    width: 93%;
+    position: absolute;
+    border: solid;
+    border-width: 10rem;
+    color: white;
+}
+
+.imgPerfil img {
+    width: 150rem;
+    position: absolute;
+    margin-top: 235rem;
+    margin-left: 60rem;
+    border: solid;
+    border-width: 5rem;
+    border-radius: 50%;
+    background-color: white;
+    color: white;
+}
+
+.infoPerfil {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    margin-top: 400rem;
+    margin-left: 13rem;
+    padding: 23rem;
+    border: solid;
+    border-width: 1rem;
+    border-right: none;
+    border-left: none;
+    color: darkgray;
+    /* box-shadow: 3rem 3rem 6rem darkgrey; */
+}
+
+.infoPerfil p {
+    font-size: 23rem;
+}
+
+.userPerfil {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 6rem;
+    padding-left: 5rem;
+    padding-right: 70rem;
+}
+
+.pointsPerfil {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(94, 180, 8);
+}
+
+.cohete {
+    width: 30rem;
+}
+
+
+
+.actualizarPerfil {
+    display: none;
+    padding-top: 14rem;
+}
+
+.actiualizarActv {
+    display: block;
+}
+
+.textName {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16rem;
+    padding-right: 10rem;
+}
+
+#name {
+    width: 30%;
+    height: 30rem;
+    margin-right: 10rem;
+}
+
+.textSurnames {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16rem;
+    padding-right: 10rem;
+
+}
+
+#surnames {
+    width: 30%;
+    height: 30rem;
+}
+
+.textEmail {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16rem;
+    padding-right: 21rem;
+}
+
+#email {
+    width: 30%;
+    height: 30rem;
+    margin-right: 10rem;
+    margin-top: 10rem;
+}
+
+.textPassword {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16rem;
+    padding-right: 14rem;
+}
+
+#password {
+    width: 30%;
+    height: 30rem;
+    margin-top: 10rem;
+}
+
+.textUrl {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16rem;
+    padding-right: 7rem;
+}
+
+#url {
+    width: 30%;
+    height: 30rem;
+    margin-right: 10rem;
+    margin-top: 10rem;
+    font-size: 11rem;
+}
+
+.textDate {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16rem;
+    padding-right: 7rem;
+}
+
+#date {
+    width: 30%;
+    height: 30rem;
+    font-size: 14rem;
+}
+
+.container-Btn {
+    display: flex;
+    justify-content: center;
+}
+
+.btnGuardar {
+    margin-top: 20rem;
+    width: 30%;
+    height: 30rem;
+    background-color: rgb(173, 230, 255);
+    border-width: 1rem;
+    border-radius: 6rem;
+}
+
+.btnGuardar:active{
+    background-color: rgb(121, 211, 250);
+}
+
+.activarActlz {
+    display: flex;
+    justify-content: center;
+}
+
+.activarActlz p {
+    font-size: 24rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-right: 8rem;
+}
+
+.activarActlz img {
+    padding-top: 2rem;
+    width: 20rem;
+    cursor: pointer;
+}
