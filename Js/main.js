@@ -28,6 +28,11 @@ let technology = document.querySelector('.technology');
 let homeAppliances = document.querySelector('.homeAppliances')
 let toys = document.querySelector('.toys');
 
+let clothingHambur = document.querySelector('.clothingHambur')
+let technologyHambur = document.querySelector('.technologyHambur')
+let homeAppliancesHambur = document.querySelector('.homeAppliancesHambur')
+let toysHambur = document.querySelector('.toysHambur')
+
 
 let productList = [];
 let emptyCar = [];
@@ -668,8 +673,31 @@ if(toys){
     })
 }
 
+// Navegacion ambur
 
+if(clothingHambur){
+    clothingHambur.addEventListener('click', ()=>{
+        location.href = 'ropa.html'
+    })
+}
 
+if(technologyHambur){
+    technologyHambur.addEventListener('click', ()=>{
+        location.href = 'tecnologia.html'
+    })
+}
+
+if(homeAppliancesHambur){
+    homeAppliancesHambur.addEventListener('click', ()=>{
+        location.href = 'electroDomesticos.html'
+    })
+}
+
+if(toysHambur){
+    toysHambur.addEventListener('click', ()=>{
+        location.href = 'juguetes.html'
+    })
+}
 
 
 if(containerSell){
