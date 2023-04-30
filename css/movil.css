@@ -12,6 +12,7 @@
 
     .aside-Hambur {
         color: darkgray;
+        overflow-y: scroll;
         flex-flow: column;
         border-style: solid;
         border-width: 1rem;
